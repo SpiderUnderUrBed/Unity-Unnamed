@@ -37,11 +37,9 @@ Shader "Custom/GerstenerWave" {
 			float2 d = normalize(wave.xy);
 			float f = k * (dot(d, p.xz) - c * _Time.y);
 			float a = steepness / k;
-			
 			//p.x += d.x * (a * cos(f));
 			//p.y = a * sin(f);
 			//p.z += d.y * (a * cos(f));
-
 			tangent += float3(
 				-d.x * d.x * (steepness * sin(f)),
 				d.x * (steepness * cos(f)),

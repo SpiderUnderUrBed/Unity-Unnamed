@@ -48,7 +48,7 @@ Material:
     m_Colors:
     - _BaseColor: {r: 0, g: 0.066943884, b: 1, a: 0}
     - _RippleColor: {r: 0, g: 1, b: 0.5921569, a: 0}
-    - _Wave: {r: 1, g: 1, b: 0.5, a: 1}
+    - _Wave: {r: 1, g: 0, b: 0.5, a: 2}
     - _WaveA: {r: 0, g: 0, b: 0, a: 0}
     - _WaveB: {r: 0, g: 0, b: 0, a: 0}
     - _binormal: {r: 1, g: 0, b: 0, a: 0}
